@@ -1,0 +1,71 @@
+race
+  0 Caucasian
+  1 AfricanAmerican
+  2 Asian
+  3 Hispanic
+  4 Other
+  5 ?
+
+gender
+  0 Male
+  1 Female
+
+age
+  0 [0-10)
+  1 [10-20)
+  ...
+  9 [90-100)
+
+weight (mostly empty)
+  0 [0-25)
+  1 [25-50)
+  2 [50-75)
+  3 [75-100)
+  4 [100-125)
+
+payer_code (empty)
+
+medical_specialty (garbage data)
+
+diag_1, diag_2, diag_3
+  0 ?
+  floating point and integers
+  V??
+  E???
+  V23
+  E989
+  E42
+  V689
+
+max_glu_serum, A1Cresult
+  None
+  >[0-9]*
+
+metformin repaglinide	nateglinide	chlorpropamide
+glimepiride	acetohexamide	glipizide	glyburide	tolbutamide	pioglitazone
+rosiglitazone	acarbose	miglitol	troglitazone	tolazamide	examide	citoglipton
+  No
+  Steady
+
+Insulin
+  Down
+  Up
+  No
+  Steady
+
+glyburide-metformin	glipizide-metformin	glimepiride-pioglitazone
+metformin-rosiglitazone	metformin-pioglitazone
+  (Garbage data)
+
+Change
+  Ch
+  No
+
+diabetesMed
+  No
+  Yes
+
+readmitted
+  NO
+  >30
+  <30
